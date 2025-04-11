@@ -35,6 +35,8 @@ Dataset: imagens organizadas em diretórios `train/dog`, `train/not_dog`, etc.
 passagem do teste unitario de imagem: img_path = '/content/drive/MyDrive/Colab Notebooks/teste/10936.jpg'
 classe = "Gato" if prediction[0][0] > 0.5 else "Cachorro"
 print(f"Predição: {classe} (score: {prediction[0][0]:.4f})")
+
+
 ![image](https://github.com/user-attachments/assets/7810f8db-861e-40cb-a94c-434f5c8b5307)
 
 
